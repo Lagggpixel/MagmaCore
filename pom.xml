@@ -12,7 +12,7 @@
     <name>MagmaCore</name>
 
     <properties>
-        <java.version>17</java.version>
+        <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -54,6 +54,10 @@
             <id>spigotmc-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
+        <repository>
+            <id>magma-guy</id>
+            <url>https://repo.magmaguy.com/releases</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -79,7 +83,7 @@
         <dependency>
             <groupId>com.magmaguy</groupId>
             <artifactId>FreeMinecraftModels</artifactId>
-            <version>1.3.1</version>
+            <version>1.4.2</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
